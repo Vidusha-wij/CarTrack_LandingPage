@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/faq.css" />
     <link rel="icon" type="image/png" href="assets/Img_placeholders/icon.png">
 
   </head>
@@ -211,6 +212,79 @@
         </div>
       </div>
     </section>
+
+
+
+    <div>
+      <div class="section-header">
+        <h2><span>FAQs</span></h2>
+        <p>
+          Quick Answers to Common Questions
+        </p>
+      </div>
+    <div class="faq-container">
+      <div class="faq-item">
+          <div class="faq-question">
+              <span>What is CarTrack?</span>
+              <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+              <p>CarTrack is an all-in-one vehicle management and marketplace platform designed to help Sri Lankan vehicle owners track maintenance, manage expenses, and access a trusted marketplace for buying and selling vehicles.</p>
+          </div>
+      </div>
+
+      <div class="faq-item">
+          <div class="faq-question">
+              <span>How does CarTrack help with vehicle maintenance?</span>
+              <span class="faq-toggle">+</span>
+          </div>
+          <div class="faq-answer">
+              <p>CarTrack allows users to log service history, track fuel expenses, receive reminders for license and insurance renewals, and monitor repair and maintenance records for better financial planning.</p>
+          </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+            <span>Can I buy and sell vehicles through CarTrack?</span>
+            <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>Yes, CarTrack features a marketplace where users can buy and sell vehicles with access to detailed vehicle history reports, a valuation tool, and a verification system to ensure safe transactions.
+            </p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+          <span>Does CarTrack support rental services?</span>
+          <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+          <p>Yes, CarTrack provides a secure vehicle rental feature with identity verification to minimize risks for both vehicle owners and renters.</p>
+      </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+        <span>Is CarTrack available for all devices?</span>
+        <span class="faq-toggle">+</span>
+    </div>
+    <div class="faq-answer">
+        <p>CarTrack is currently designed as a mobile application for Android devices (Android 8 and above) and is developed using Java, JavaScript, and ReactNative.</p>
+    </div>
+</div>
+  </div>
+
+</div>
+
+  <script>
+      document.querySelectorAll('.faq-question').forEach(question => {
+          question.addEventListener('click', () => {
+              const faqItem = question.parentElement;
+              faqItem.classList.toggle('active');
+          });
+      });
+  </script>
 
     <!-- About Us Section -->
     <section id="about" class="about">
