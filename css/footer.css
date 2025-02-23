@@ -2,13 +2,17 @@
 footer {
     background-color: var(--secondary-bg);
     padding: 60px 0 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 .footer-content {
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr;
     gap: 40px;
     margin-bottom: 60px;
+    
 }
 
 .footer-logo {
@@ -19,10 +23,14 @@ footer {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+    place-items: center;
 }
 
 .footer-logo span {
     color: var(--accent);
+    
 }
 
 .footer-about p {
@@ -35,6 +43,9 @@ footer {
 .footer-download {
     display: flex;
     gap: 15px;
+    justify-content: center;
+    text-align: center;
+    place-items: center;
 }
 
 .download-btn {
@@ -70,6 +81,8 @@ footer {
 
 .footer-links {
     list-style: none;
+    text-align: end;
+    
 }
 
 .footer-links li {
