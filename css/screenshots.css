@@ -1,0 +1,33 @@
+/* App Screenshots */
+.screenshots {
+    padding: 100px 0;
+    background-color: var(--primary-bg);
+}
+
+.screenshots-container {
+    margin-top: 60px;
+    position: relative;
+}
+
+.screenshots-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.screenshot-item {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.screenshot-item:hover {
+    transform: translateY(-10px);
+}
+
+.screenshot-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
